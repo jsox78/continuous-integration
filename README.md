@@ -51,7 +51,7 @@ endstep0-->
 <details id=1>
 <summary><h2>Step 1: Add a test workflow</h2></summary>
 
-_Welcome to "GitHub Actions: Continuous Integration"! :wave:_
+_Welcome to "GitHub Actions: Continuous Integration"!_ :wave:
 
 **What is _continuous integration_?**: [Continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) can help you stick to your team’s quality standards by running tests and reporting the results on GitHub. CI tools run builds and tests, triggered by commits. The results post back to GitHub in the pull request. The goal is fewer issues in `main` and faster feedback as you work.
 
@@ -98,7 +98,7 @@ First, let's add a workflow to lint our Markdown files in this repository.
 <details id=2>
 <summary><h2>Step 2: Fix the test</h2></summary>
 
-_Great job adding the templated workflow! :tada:_
+_Great job adding the templated workflow!_ :tada:
 
 Adding that file to this branch is enough for GitHub Actions to begin running CI on your repository.
 
@@ -142,7 +142,7 @@ If the checks don't appear or if the checks are stuck in progress, there's a few
 <details id=3>
 <summary><h2>Step 3: Upload test reports</h2></summary>
 
-_The workflow has finished running! :sparkles:_
+_The workflow has finished running!_ :sparkles:
 
 So what do we do when we need the work product of one job in another? We can use the built-in [artifact storage](https://docs.github.com/en/actions/advanced-guides/storing-workflow-data-as-artifacts) to save artifacts created from one job to be used in another job within the same workflow.
 
@@ -184,7 +184,7 @@ Similar to the upload action to send artifacts to the storage, you can use anoth
 <details id=4 open>
 <summary><h2>Step 4: Add branch protections</h2></summary>
 
-_Great job uploading test reports! :partying_face:_
+_Great job uploading test reports!_ :partying_face:
 
 Take a look at the merge box, you'll notice you can merge this even though the review process hasn't been met.
 
